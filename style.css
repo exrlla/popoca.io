@@ -1,15 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Forum&display=swap');
 html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #E7E6E6;
 }
 
-canvas {
-  display: block;
+.header-main {
+  display: flex;
+  justify-content: space-around;
+}
+.header-main-text {
+  font-family: 'Forum', cursive;
+  padding-top: 40px;
+  font-size: 40px;
+  color: #4E4E4E
 }
 
-.github-button {
-  width: 100px;
+.a:hover {
+  text-decoration: none;
+}
+.nav-main {
+text-decoration: none;
+font-family: 'IBM Plex Mono', monospace;
+padding-top: 60px;
+list-style: none;
+display: flex;
+color: #4E4E4E;
+padding-left: 30px;
+}
 
+.nav-main-text {
+  padding-left: 70px;
+  text-decoration: none;
+  color: #4E4E4E;
   
 }
