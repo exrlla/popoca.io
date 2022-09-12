@@ -10,6 +10,7 @@ html, body {
 .header-main {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 40px;
 }
 .header-main-text {
   font-family: 'Forum', cursive;
@@ -35,5 +36,67 @@ padding-left: 30px;
   padding-left: 70px;
   text-decoration: none;
   color: #4E4E4E;
+  
+}
+
+.body-main {
+  display:flex;
+
+}
+.header-main-img {
+  width: 900px;
+  padding-left: 150px;
+}
+.body-main-text {
+  font-family: 'IBM Plex Mono', monospace;
+  padding-right: 80px;
+}
+
+.github-logo {
+  width: 50px;
+
+}
+.linkedin-logo {
+  width: 50px;
+  padding-left: 10px;
+}
+
+.insta-logo {
+  width: 50px;
+  padding-left: 10px;
+}
+
+.page-buttons {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.code-button {
+  background-color: #BCCCD6;
+  color: #E7E6E6;
+  border: none;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'IBM Plex Mono', monospace;
+ display: inline-block;
+ margin-right: 40px;
+}
+
+.design-button {
+  background-color: #CADBCC;
+  color: #E7E6E6;
+  border: none;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  display: inline-block;
   
 }
