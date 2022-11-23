@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Forum&display=swap');
 
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -20,9 +37,7 @@ html, body {
   color: #4E4E4E
 }
 
-.a:hover {
-  text-decoration: none;
-}
+
 .nav-main {
 text-decoration: none;
 font-family: 'IBM Plex Mono', monospace;
@@ -31,6 +46,25 @@ list-style: none;
 display: flex;
 color: #4E4E4E;
 padding-left: 30px;
+}
+
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
 }
 
 .nav-main-text {
@@ -74,7 +108,7 @@ padding-left: 30px;
 
 .code-button {
   background-color: #BCCCD6;
-  color: #E7E6E6;
+  color: white;
   border: none;
   padding: 10px 80px;
   text-align: center;
@@ -89,7 +123,7 @@ padding-left: 30px;
 
 .design-button {
   background-color: #CADBCC;
-  color: #E7E6E6;
+  color: white;
   border: none;
   padding: 10px 80px;
   text-align: center;
