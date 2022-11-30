@@ -25,7 +25,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #E7E6E6;
 }
 
@@ -81,6 +80,12 @@ padding-left: 30px;
   text-decoration: none;
   color: #4E4E4E;
   
+}
+
+.reg-text-main {
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
 }
 
 .body-main {
@@ -144,3 +149,4 @@ padding-left: 30px;
   display: inline-block;
   
 }
+
