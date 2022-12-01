@@ -34,6 +34,7 @@ html, body {
   padding-bottom: 40px;
   text-decoration: none;
 }
+
 .header-main-text {
   font-family: 'Forum', cursive;
   padding-top: 40px;
@@ -53,6 +54,18 @@ color: #4E4E4E;
 padding-left: 30px;
 }
 
+@media screen and (max-width: 700px) {
+  .header-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-main {
+    padding-top: 20px;
+    padding-right: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 
 .hvr-float {
   color: #4E4E4E;
