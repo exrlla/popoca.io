@@ -54,16 +54,36 @@ color: #4E4E4E;
 padding-left: 30px;
 }
 
-@media screen and (max-width: 700px) {
+/* Mobile Display  */
+@media screen and (max-width: 800px) {
   .header-main {
     flex-direction: column;
     align-items: center;
   }
   .nav-main {
-    padding-top: 20px;
-    padding-right: 40px;
+    padding-top: 10px;
+    padding-right: 80px;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .body-main {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .body-main-center {
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+
+  .page-buttons {
+   padding-bottom: 40px;
+  }
+
+  .design-button {
+    margin-right: 35px;
+    margin-top: 20px;
   }
 }
 
@@ -105,26 +125,23 @@ padding-left: 30px;
   display:flex;
 
 }
-.header-main-img {
-  width: 80vh;
-  padding-left: 150px;
-}
+
 .body-main-text {
   font-family: 'IBM Plex Mono', monospace;
   padding-right: 80px;
 }
 
 .github-logo {
-  width: 50px;
+  width: 30px;
 
 }
 .linkedin-logo {
-  width: 50px;
+  width: 30px;
   padding-left: 10px;
 }
 
 .insta-logo {
-  width: 50px;
+  width: 30px;
   padding-left: 10px;
 }
 
