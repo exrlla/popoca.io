@@ -161,8 +161,8 @@ padding-left: 30px;
   cursor: pointer;
   border-radius: 8px;
   font-family: 'IBM Plex Mono', monospace;
- display: inline-block;
- margin-right: 40px;
+  display: inline-block;
+  margin-right: 40px;
 }
 
 .design-button {
@@ -177,6 +177,8 @@ padding-left: 30px;
   border-radius: 8px;
   font-family: 'IBM Plex Mono', monospace;
   display: inline-block;
-  
 }
 
+ul.a {
+  list-style-image: url(./assets/icon-ul.png);
+}
