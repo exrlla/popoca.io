@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
 @keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -26,7 +27,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #E7E6E6;
-  cursor: url("./assets/cursor.png"), auto;
+  /* cursor: url("./assets/cursor.png"), auto; */
 }
 
 .header-main {
@@ -37,9 +38,9 @@ html, body {
 }
 
 .header-main-text {
-  font-family: 'Forum', cursive;
+  font-family: 'Unbounded', cursive;
   padding-top: 40px;
-  font-size: 40px;
+  font-size: 50px;
   color: #4E4E4E;
   text-decoration: none;
 }
@@ -93,6 +94,10 @@ padding-left: 30px;
   .spacing-home-container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .design-cards {
+    margin-inline: 30px;
+    width: 600px;
   }
 }
 
@@ -195,4 +200,21 @@ ul.a {
 
 .accent-style {
   color: #5CA4A9;
+}
+
+.design-cards {
+  margin-top: 20px;
+  width: 420px;
+  border: black 2px solid;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.design-cards-text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Unbounded', cursive;
+  font-size: 30px;
+  margin-top: 50px;
+  color: #4E4E4E;
 }
