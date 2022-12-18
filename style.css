@@ -26,6 +26,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #E7E6E6;
+  cursor: url("./assets/cursor.png"), auto;
 }
 
 .header-main {
@@ -137,6 +138,7 @@ padding-left: 30px;
 .body-main-text {
   font-family: 'IBM Plex Mono', monospace;
   padding-right: 80px;
+  color: #4E4E4E;
 }
 
 .github-logo {
@@ -192,5 +194,5 @@ ul.a {
 }
 
 .accent-style {
-  color: #6F5060;
+  color: #5CA4A9;
 }
