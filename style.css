@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Forum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
 
 @keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -46,10 +47,10 @@ html, body {
 
 .project-main-text {
   font-family: 'Unbounded', cursive;
-  font-size: 40px;
+  font-size: 30px;
   color: #4E4E4E;
   text-decoration: none;
-  line-height: 1.0;
+  line-height: 1.2;
 }
 
 .nav-main {
@@ -63,8 +64,8 @@ padding-left: 30px;
 }
 
 .spacing-home-container {
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 /* Mobile Display  */
@@ -78,6 +79,9 @@ padding-left: 30px;
     padding-right: 80px;
     flex-direction: row;
     justify-content: center;
+  }
+  .header-main-text {
+    font-size: 30px;
   }
 
   .body-main {
@@ -104,10 +108,16 @@ padding-left: 30px;
   }
   .design-cards {
     margin-inline: 30px;
-    width: 600px;
   }
   .text-style-back {
     padding-left: 30px;
+  }
+  .img-style {
+    width: 100%;
+  }
+  .code-container {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -216,7 +226,7 @@ ul.a {
 
 .design-cards {
   margin-top: 20px;
-  width: 420px;
+  width: 60vw;
   border: black 2px solid;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -226,7 +236,7 @@ ul.a {
   display: flex;
   justify-content: center;
   font-family: 'Unbounded', cursive;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 50px;
   color: #4E4E4E;
 }
@@ -237,9 +247,6 @@ footer.a {
   padding-bottom: 50px;
 }
 
-footer.a:hover {
-
-}
 
 .text-style-back {
   font-family: 'IBM Plex Mono', monospace;
@@ -254,4 +261,35 @@ footer.a:hover {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #F3E5E3;
+}
+
+h5.a {
+  font-family: 'Unbounded', cursive;
+  font-size: 30px;
+  color: #7a91b7;
+  margin-top: 20px;
+  text-decoration: none;
+  line-height: 1.0;
+}
+
+.img-style {
+  width: 70%;
+  height: 70%;
+}
+
+.action-call-btn {
+  background-color: #C17D71;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+}
+
+.code-container {
+  margin-left: 60px;
+  margin-right: 60px;
 }
