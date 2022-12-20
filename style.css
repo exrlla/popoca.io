@@ -25,7 +25,6 @@
 
 html, body {
   margin: 0;
-  padding: 0;
   background-color: #E7E6E6;
   /* cursor: url("./assets/cursor.png"), auto; */
 }
@@ -40,11 +39,18 @@ html, body {
 .header-main-text {
   font-family: 'Unbounded', cursive;
   padding-top: 40px;
-  font-size: 50px;
+  font-size: 40px;
   color: #4E4E4E;
   text-decoration: none;
 }
 
+.project-main-text {
+  font-family: 'Unbounded', cursive;
+  font-size: 40px;
+  color: #4E4E4E;
+  text-decoration: none;
+  line-height: 1.0;
+}
 
 .nav-main {
 text-decoration: none;
@@ -57,9 +63,10 @@ padding-left: 30px;
 }
 
 .spacing-home-container {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
+
 /* Mobile Display  */
 @media screen and (max-width: 800px) {
   .header-main {
@@ -99,6 +106,9 @@ padding-left: 30px;
     margin-inline: 30px;
     width: 600px;
   }
+  .text-style-back {
+    padding-left: 30px;
+  }
 }
 
 .hvr-float {
@@ -132,7 +142,7 @@ padding-left: 30px;
 .reg-text-main {
   text-decoration: none;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .body-main {
@@ -198,6 +208,8 @@ ul.a {
   list-style-image: url(./assets/icon-ul.png);
 }
 
+
+
 .accent-style {
   color: #5CA4A9;
 }
@@ -217,4 +229,29 @@ ul.a {
   font-size: 30px;
   margin-top: 50px;
   color: #4E4E4E;
+}
+
+footer.a {
+  color: #DBB4AD;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+footer.a:hover {
+
+}
+
+.text-style-back {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  color: #C17D71;
+}
+.text-style-back:hover {
+  color: #9D4F43;
+}
+
+.text-style-design {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #F3E5E3;
 }
