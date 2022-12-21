@@ -172,6 +172,7 @@ padding-left: 30px;
   text-decoration: none;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 17px;
+  color: #6b6b6b;
 }
 
 .home-text-main {
@@ -394,4 +395,8 @@ h2.top-header-main {
   font-size: 30px;
   color: #e1b1cd;
   text-decoration: none;
+}
+
+.add-border {
+  border: 2px solid #000000;
 }
