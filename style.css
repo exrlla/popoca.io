@@ -28,7 +28,12 @@
 html, body {
   padding: 0;
   background-color: #E7E6E6;
+  background-image: url("assets/bg-clouds.png");
   /* cursor: url("./assets/cursor.png"), auto; */
+}
+
+a {
+  text-decoration: none;
 }
 
 .header-main {
@@ -36,6 +41,10 @@ html, body {
   justify-content: space-around;
   padding-bottom: 40px;
   text-decoration: none;
+}
+
+.header-main-img {
+  width: 40%;
 }
 
 .header-main-text {
@@ -69,8 +78,16 @@ padding-left: 30px;
   padding-right: 20vw;
 }
 
+.body-main-center {
+  margin-right: 80px;
+}
+
+
 /* Mobile Display  */
 @media screen and (max-width: 800px) {
+  .header-main-img {
+    width: 100%;
+  }
   .header-main {
     flex-direction: column;
     align-items: center;
@@ -92,7 +109,8 @@ padding-left: 30px;
 
   .body-main-center {
     padding-top: 30px;
-    padding-left: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
   }
 
   .page-buttons {
@@ -156,9 +174,16 @@ padding-left: 30px;
   font-size: 17px;
 }
 
+.home-text-main {
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  color: #525050;
+}
+
 .body-main {
   display:flex;
-
+  justify-content: space-around;
 }
 
 .body-main-text {
@@ -183,7 +208,7 @@ padding-left: 30px;
 
 .page-buttons {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
@@ -300,9 +325,11 @@ h5.a {
   width: 100%;
   max-width: max-content;
 }
+
 #bolder-text {
   font-weight: 600;
   font-style: italic;
+  color:#bf8daa;
 }
 
 #modal-img,
@@ -359,4 +386,12 @@ h5.a {
   .modal-content {
     width: 90%;
   }
+}
+
+h2.top-header-main {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 30px;
+  color: #e1b1cd;
+  text-decoration: none;
 }
