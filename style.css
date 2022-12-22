@@ -28,7 +28,7 @@
 html, body {
   padding: 0;
   background-color: #E7E6E6;
-  background-image: url("assets/bg-clouds.png");
+  /* background-image: url("assets/bg-clouds.png"); */
   /* cursor: url("./assets/cursor.png"), auto; */
 }
 
