@@ -14,7 +14,7 @@
 
   <body>
     <header class="header-main">
-      <h1 class ="header-main-text"><a class="hvr-float" href="../index.html">Ellie Popoca</a></h1>
+      <h1 class ="header-main-text"><a class="hvr-float" href="../">Ellie Popoca</a></h1>
       <nav>
         <ul class="nav-main">
           <li><a class="nav-main-text hvr-float" href="about.html">About</a></li>
@@ -134,9 +134,20 @@
                   <li>What are common themes in popular applications in terms of typography, colors, and layout?</li>
                 </ul> 
               </p>
-
+              <p class="reg-text-main text-gray-500" id="bolder-text">
+               Below is the figma mockup where I put all of my research and ideas together! Keeping this in mind, this is the flow that I decided to go with!
+              </p>
           </div>
 
+      
+          <img class="modal-style img-style mb-10 mt-10" id="modal-img" src="../assets/wellapp_mockup.png" alt="Key Features of Wellapp">
+            <!-- The Modals -->
+            <div id="img-modal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+            </div>
+            
+         
 
 
           <!-- Design Process: HCI Analysis and User Needs Report -->
@@ -180,12 +191,6 @@
             These are some of the modals of Wellapp where users can login, and change their email.
           </p>
           <img class="img-style mb-10" src="../assets/wellapp_modals.png" alt="Key Features of Wellapp">
-          
-    
-         
-
-
-
 
           <!-- Design Process: Reflections -->
           <h3 class="text-3xl header-main-text tracking-tight text-gray-900 sm:text-4xl">Reflections</h3>
@@ -202,12 +207,32 @@
         <h4 class="text-style-back">↙ designs ✧ ˚ · .</h4>
       </a>
     </div>
+    <script>
+      // Modal Script for displaying images in larger width
+      var modal = document.getElementById("img-modal");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("modal-img");
+      var modalImg = document.getElementById("img01");
+      
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
 </body>
 
 <footer class="a mt-10 pt-10">
   <div class="reg-text-main flex justify-center">
-    <p>Made with ‎♡‧₊˚ by Ellie
-    </p>
+    <p>Made with ‎♡‧₊˚ by Ellie / <a class="underline"href="https://github.com/exrlla/popoca.io">Source</a></p>
   </div>
          
  </footer>

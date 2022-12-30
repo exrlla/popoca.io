@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Forum&display=swap');
@@ -28,8 +26,8 @@
 html, body {
   padding: 0;
   background-color: #E7E6E6;
-  /* background-image: url("assets/bg-clouds.png"); */
-  /* cursor: url("./assets/cursor.png"), auto; */
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -84,7 +82,7 @@ padding-left: 30px;
 
 
 /* Mobile Display  */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .header-main-img {
     width: 100%;
   }
@@ -193,6 +191,7 @@ padding-left: 30px;
   color: #4E4E4E;
 }
 
+
 .github-logo {
   width: 30px;
 
@@ -203,6 +202,11 @@ padding-left: 30px;
 }
 
 .insta-logo {
+  width: 30px;
+  padding-left: 10px;
+}
+
+.twt-logo {
   width: 30px;
   padding-left: 10px;
 }
@@ -300,6 +304,24 @@ h5.a {
   line-height: 1.0;
 }
 
+h2.a {
+  font-family: 'Unbounded', cursive;
+  font-size: 40px;
+  color: #7a91b7;
+  text-decoration: none;
+  margin-top: 20px;
+  line-height: 1.0;
+}
+
+h2.b {
+  font-family: 'Unbounded', cursive;
+  font-size: 15px;
+  color: #7a91b7;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: 1.0;
+}
+
 .img-style {
   width: 70%;
   height: 70%;
@@ -370,7 +392,7 @@ h5.a {
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #f1f1f1;
+  color: #e8bebe;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -378,7 +400,7 @@ h5.a {
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: rgb(188, 170, 200);
   text-decoration: none;
   cursor: pointer;
 }
@@ -397,6 +419,34 @@ h2.top-header-main {
   text-decoration: none;
 }
 
+.blog-title-text {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 30px;
+  color: #e1b1cd;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.blog-time-text {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #494949;
+  text-decoration: none;
+  
+}
 .add-border {
   border: 2px solid #000000;
+}
+
+.logo-main-img {
+  width: 40px;
+  height: 40px;
+  align-self: flex-end;
+}
+
+.logo-sub-img {
+  width: 60px;
+  height: 60px;
+  align-self: flex-end;
 }
